@@ -1,0 +1,86 @@
+/* --------------------- 1. TEXT MATCHES FOLLOWING STYLES: ------------------ */
+
+* {
+	font-family: 'Lucida Grande', sans-serif;
+}
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-shadow: 5px 5px 2px #808080;
+}
+
+p {
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+/* ----------------------------- 2. TEXT STYLES ---------------------------- */
+body {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+/* ---------------------------- 3. IMAGE STYLES ---------------------------- */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 525px;
+}
+
+
+/* ----------------------- 4. DIV HEIGHT AND PADDING ----------------------- */
+div {
+	height: 150px;
+	padding: 25px;
+}
+
+
+/* --------------------------- 5. RED DIV STYLES --------------------------- */
+#red {
+	background-color: #ff0000;
+	text-align: right;
+}
+
+
+/* --------------------------- 6. BLUE DIV STYLES -------------------------- */
+#blue {
+	background-color: #0000ff;
+	text-align: left;
+}
+
+
+
+/* -------------------------- 7. YELLOW DIV STYLES ------------------------- */
+#yellow {
+	background-color: #ffff00;
+	text-align: right;
+}
+
+#yellow h2 {
+	color: black;
+	text-shadow: #c7e2c7;
+}
+
+#yellow p {
+	color: black;
+}
+
+/* -------------------------- 8. GREEN DIV STYLES -------------------------- */
+#green {
+	background-color: #008000;
+	text-align: left;
+}
+
+/* ---------------------------- 9. FOOTER STYLES --------------------------- */
+footer p {
+	text-align: right;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
