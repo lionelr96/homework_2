@@ -39,7 +39,7 @@ img {
 
 /* ----------------------- 4. DIV HEIGHT AND PADDING ----------------------- */
 div {
-	height: 150px;
+	min-height: 150px;
 	padding: 25px;
 }
 
@@ -83,6 +83,11 @@ div {
 /* ---------------------------- 9. FOOTER STYLES --------------------------- */
 footer p {
 	text-align: right;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+footer {
 	padding-bottom: 10px;
 	padding-right: 10px;
 }
